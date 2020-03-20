@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="panel" alignment="center" hgap="10" stylesheets="/sample/ispit_test.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+       <ColumnConstraints />
+       <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+       <RowConstraints />
+       <RowConstraints />
+       <RowConstraints />
+       <RowConstraints />
+       <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" text="Add" />
+      <Button mnemonicParsing="false" text="Remove" GridPane.columnIndex="1" />
+      <Button mnemonicParsing="false" text="?" GridPane.columnIndex="3" />
+      <Label text="Data" GridPane.rowIndex="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label text="Goods" GridPane.rowIndex="3" />
+      <Label text="Departments" GridPane.rowIndex="5" />
+      <Label text="Cost" GridPane.rowIndex="2" />
+      <Label text="Employees" GridPane.rowIndex="4" />
+   </children>
+</GridPane>
